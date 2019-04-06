@@ -10,10 +10,10 @@ from rasa_core.utils import EndpointConfig
 interpreter = RasaNLUInterpreter('./models/current/nlu')
 agent = Agent.load('./models/current/dialogue', interpreter=interpreter,action_endpoint=EndpointConfig(url="http://localhost:5055/webhook"))
 
-token = '571365920:AAE78fooH2ktF8WE5uA7mQP4yFstwk3s6mk'
+token = 'yourbottoken'
 # bot = telepot.Bot(token)
-# https://api.telegram.org/bot571365920:AAE78fooH2ktF8WE5uA7mQP4yFstwk3s6mk/setWebhook?url=https://eb3aa0c2.ngrok.io
-# https://api.telegram.org/bot571365920:AAE78fooH2ktF8WE5uA7mQP4yFstwk3s6mk/deleteWebhook
+# https://api.telegram.org/bot{token}/setWebhook?url=https://eb3aa0c2.ngrok.io
+# https://api.telegram.org/bot{token}/deleteWebhook
 
 app = Flask(__name__)
 
