@@ -1,17 +1,17 @@
 # what is this ?
 This repo is a result of blog post youcan find here <>
 it will help you get up and running with rasa and telegram 
-
-#How To Use ?
+---
+# How To Use ?
 first install all the dependencies from requirements.txt 
 
-pip install -r requirements.txt
+	pip install -r requirements.txt
 
-pip install rasa_core_sdk (if needed)
+	pip install rasa_core_sdk (if needed)
 
 and download spacy english model
 
-python -m spacy download en
+	python -m spacy download en
 
 
 #Train rasa_nlu
@@ -31,12 +31,13 @@ python -m spacy download en
 	python3 -m rasa_core.run -d models/current/dialogue -u models/current/nlu --endpoints endpoints.yml
 
 #Run Bot On Telegram
-	##create bot
-		create bot using botfather and get the access token
+## create bot
+create bot using botfather and get the access token
 
-	##setup webhook
-		start tunnel using ngrok or any other services and setup webhook by following url  
-		https://api.telegram.org/bot'bot token'/setWebhook?url='webhook url'
-	##chat
-		enter your bot token in main.py run main.py
-		python3 main.py 
+## setup webhook
+start tunnel using ngrok or any other services and setup webhook by following url  
+https://api.telegram.org/bot'bot token'/setWebhook?url='webhook url'
+
+## chat
+enter your bot token in main.py and run main.py
+	python3 main.py 
