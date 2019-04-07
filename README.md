@@ -1,5 +1,5 @@
 # what is this ?
-This repo is a result of blog post youcan find here <>
+This repo is a result of blog post youcan find here <https://medium.com/@manaan1ansari/getting-started-with-rasa-chatbot-and-telegram-part-1-d289977e24ac>
 it will help you get up and running with rasa and telegram 
 
 # How To Use ?
@@ -8,6 +8,8 @@ first install all the dependencies from requirements.txt
 	pip install -r requirements.txt
 
 	pip install rasa_core_sdk (if needed)
+
+	pip install flask (if needed)
 
 and download spacy english model
 
