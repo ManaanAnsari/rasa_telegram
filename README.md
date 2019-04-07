@@ -1,5 +1,5 @@
 # what is this ?
-This repo is a result of blog post youcan find here <https://medium.com/@manaan1ansari/getting-started-with-rasa-chatbot-and-telegram-part-1-d289977e24ac>
+This repo is a result of blog post you can find here <https://medium.com/@manaan1ansari/getting-started-with-rasa-chatbot-and-telegram-part-1-d289977e24ac>
 it will help you get up and running with rasa and telegram 
 
 # How To Use ?
